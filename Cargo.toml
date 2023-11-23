@@ -1,0 +1,17 @@
+[package]
+name = "rorr_descriptive_language_generator"
+version = "0.1.0"
+edition = "2021"
+authors = ["thefinaluptake"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.75"
+clap = { version = "4.4.8", features = ["derive"] }
+serde = "1.0.193"
+serde_json_lenient = "0.1.8"
+textwrap = "0.16.0"
+
+[lints.clippy]
+pedantic = "warn"
